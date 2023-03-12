@@ -1,0 +1,227 @@
+/* Geral */
+
+*{
+    margin: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(23, 22, 22);
+    
+}
+
+.navbar-page{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    
+}
+
+.logo-menu {
+    position: absolute;
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+#ul-menu {
+    text-align: right;
+   padding: 1.5rem;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-menu li{
+    font-size: 25px;
+    display: inline-block;  
+    margin-right: 5rem; 
+}
+
+ .title-h1 {
+    margin-top: 5rem;
+    padding: 5rem;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Patua One, Arial, Tahoma, sans-serif";
+    color: white;
+}
+
+img{
+    font-size: 30px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Home About */
+
+.poster-header {
+    background-image: url(../assets/img/barber4_banner02\ cópia.png);
+    height: 640px;
+    background-color: antiquewhite;
+}
+
+
+.container-about {
+    margin-left: 4.5%;
+}
+
+.conteudo-about {
+    display: inline-block;
+    margin: auto;
+    
+}
+
+
+
+#img-about {
+    width: 690px;
+    height: 690px;
+    /* opacity: .7; */
+}
+#div-text-about{
+
+   
+    width: 690px;
+    
+    color: white;
+    text-align: center;
+    border-color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#text-about {
+    font-size: 20px;
+    padding: 3rem;
+    
+}
+
+#div-text-about button {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #fecc00;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Benefícios e serviços */
+
+.cards-beneficios {
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+
+.container-servicos {
+    text-align: center;
+}
+
+.cards-beneficios h2 {
+    color: white;
+    font-size: 40px;
+    padding: 2.5rem;
+}
+
+
+.boxs-cards {
+    margin: 1rem;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.boxs-cards:hover {
+    transform: scale(1.25,1.25);
+}
+
+.tabela-horarios {
+    margin-top:5rem ;
+}
+
+table {
+    width: 300px;
+    height: 400px;
+    border-color: white;
+    border-collapse: collapse;
+    background-color: rgb(13, 12, 12);
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-spacing: 2px;
+}
+
+th {
+    font-size: 17px;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+
+/*Localização*/
+
+.section-map {
+    text-align: center;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+/*Contato*/
+.redes-contatos {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.formulario-contato {
+    color: white;
+    width: 250px;
+    margin: auto;
+    
+}
+
+
+form input {
+    width: 230px;
+}
+
+form fieldset {
+    border: 0;
+}
+
+form label {
+    display: block;
+}
+
+
+
+/* Geral-Rodapé */
+footer {
+    margin-top: 5rem;
+    background-color:rgb(0, 0, 0) ;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
