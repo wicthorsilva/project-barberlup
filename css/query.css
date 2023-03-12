@@ -5,6 +5,7 @@
     }
 
     .poster-header {
+        background-image: url(../assets/img/barber_mobile-header.png);
         width: 100%;
         height: 640px;
     }
@@ -33,7 +34,7 @@
     #div-text-about{
 
    
-        margin-left: 1%;
+        margin-left: 0%;
         width: 80px;
         color: white;
         text-align: center;
