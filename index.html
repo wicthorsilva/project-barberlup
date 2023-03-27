@@ -24,8 +24,8 @@
                     <ul id="ul-menu">
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#contato">Contatos</a></li>
                         <li><a href="#localizacao">Localização</a></li>
+                        <li><a href="#contato">Contatos</a></li>
                     </ul>
                 </div>
             </div>
@@ -173,31 +173,34 @@
         <div class="formulario-contato">
             <!-- <div id="h2-contato"><h2>Fale conosco</h2></div> -->
 
-            <form action="">
+            <form onsubmit="event.preventDefault()">
 
                 <fieldset>
-                    <label for="nome">Seu nome</label>
-                    <input type="text" name="nome">
+                    <label for="input-nome">Nome</label>
+                    <input type="text" name="input-nome" id="input-nome" required minlength="2">
                 </fieldset>
 
                 <fieldset>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email">
+                    <label for="input-email">E-mail</label>
+                    <input type="email" name="input-email" id="input-email" required>
                 </fieldset>
 
                 <fieldset>
-                    <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto">
+                    <label for="input-tel">Telefone</label>
+                    <input type="tel" name="input-tel" id="input-tel" placeholder="(99) 99999-9999" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
                 </fieldset>
 
                 <fieldset>
                     <label for="input-msg">Mensagem</label>
                     <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
-                    <button>Enviar</button>
                 </fieldset>
-                
-                
+
+                <center>
+                    <input type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()" style="width: 80px; height: 40px;">
+                </center>
+
             </form>
+
         </div>
 
         
@@ -211,5 +214,7 @@
             <p>Desenvolvido por Wicthor</p>
         </div>
     </footer>
+
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
