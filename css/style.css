@@ -16,8 +16,7 @@ body {
 
 .navbar-page{
     background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: fixed;
+    
     
 }
 
@@ -62,7 +61,7 @@ img{
 
 /* Home About */
 
-.poster-header {
+ .poster-header {
     background-image: url(../assets/img/barber4_banner02\ cópia.png);
     height: 640px;
     background-color: antiquewhite;
@@ -74,9 +73,7 @@ img{
 }
 
 .conteudo-about {
-    
-    margin: auto;
-    
+    margin: auto;   
 }
 
 
@@ -108,6 +105,7 @@ img{
     width: 200px;
     height: 40px;
     border-radius: 15px;
+    border: 0;
     background-color: #fecc00;
     color: black;
     font-size: 20px;
@@ -226,7 +224,6 @@ fieldset button {
 footer {
     margin-top: 5rem;
     background-color:rgb(0, 0, 0) ;
-    width: 100%;
     color: white;
     text-align: center;
 }
