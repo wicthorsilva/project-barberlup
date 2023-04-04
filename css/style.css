@@ -70,11 +70,11 @@ img{
 
 
 .container-about {
-    margin-left: 4.5%;
+    display: flex;
 }
 
 .conteudo-about {
-    display: inline-block;
+    
     margin: auto;
     
 }

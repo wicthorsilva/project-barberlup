@@ -98,3 +98,14 @@
         height: 400px;
     }
 }
+
+@media (max-width: 1120px) {
+    .conteudo-about{
+        display: inline-block;
+    }
+
+    .container-about {
+        display: block;
+        text-align: center;
+    }
+}
